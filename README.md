@@ -16,6 +16,11 @@
 
 
 - проведите необходимые миграции ```python manage.py migrate```
+
+- наберите ```python manage.py makemigrations```
+- повторите ```python manage.py migrate```
+
+
  - запустите проект локально следующей командой:
 ``` python manage.py runserver ```
 
