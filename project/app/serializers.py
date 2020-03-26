@@ -8,6 +8,7 @@ class ApplicationSerializer(serializers.ModelSerializer):
     class Meta:
         model = Application
         fields = ('id', 'name', 'user', 'api_key')
+        read_only_fields = ('api_key',)
 
 
 class UserSerializer(serializers.ModelSerializer):
