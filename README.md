@@ -9,9 +9,11 @@
 
 - активируйте venv командой source venv/bin/activate
 
+- установите необходимые пакеты командой ```pip install -r requirements.txt```
+
 - далее зайдите в папку ```project```
 
-- установите необходимые пакеты командой ```pip install -r requirements.txt```
+
 
 - проведите необходимые миграции ```python manage.py migrate```
  - запустите проект локально следующей командой:
