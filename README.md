@@ -23,4 +23,15 @@
  
  ```http://127.0.0.1:8000/api/applications```
  
+ - создание новой связки <br/> method: POST <br/> endpoint: ```http://127.0.0.1:8000/api/applications```
+ <br/> required fields: ```name```
+ 
+ - читать все существующие связки <br/> method: GET <br/> endpoint: ```http://127.0.0.1:8000/api/applications```
+
+- просматривать одну связку <br/> method: GET <br/> endpoint: ```http://127.0.0.1:8000/api/applications/{id}``` где {id} является id модельки Application
+
+- обновить одну связку <br/> method: PUT <br/> endpoint: ```http://127.0.0.1:8000/api/applications/{id}``` где {id} является id модельки Application
+<br/> updatable fields: ```name```
+
+- удалить одну связку <br/> method: DELETE <br/> endpoint: ```http://127.0.0.1:8000/api/applications/{id}``` где {id} является id модельки Application
  ### При этом при создании новой связки можно заполнять только поле ```name```, остальные поля заполняются сами
