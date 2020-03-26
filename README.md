@@ -3,11 +3,15 @@
 ## Установка 
 скачайте проект через команду git clone.
 
-- далее зайдите в папку ```project```
 
 - потом перейдите в папку проекта и потом создайте virtual env командой ```python -m venv venv```
 
-- активируйте venv командой source venv/bin/activate и установите необходимые пакеты командой ```pip install -r requirements.txt```
+
+- активируйте venv командой source venv/bin/activate
+
+- далее зайдите в папку ```project```
+
+- установите необходимые пакеты командой ```pip install -r requirements.txt```
 
 - проведите необходимые миграции ```python manage.py migrate```
  - запустите проект локально следующей командой:
